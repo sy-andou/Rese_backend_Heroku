@@ -17,12 +17,15 @@ class PermissionsTableSeeder extends Seeder
     {
         DB::table('permissions')->insert([
             [
+                'id' => 1,
                 'name' => '利用者',
             ],
             [
+                'id' => 2,
                 'name' => '店舗代表者',
             ],
             [
+                'id' => 3,
                 'name' => '管理者',
             ],
         ]);

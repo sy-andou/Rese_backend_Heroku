@@ -18,7 +18,7 @@ class CreatePermissionsTable extends Migration
             $table->char('name', 10);
         });
     }
-    
+
     /**
      * Reverse the migrations.
      *
