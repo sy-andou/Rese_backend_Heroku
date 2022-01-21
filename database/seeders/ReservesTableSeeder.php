@@ -19,6 +19,7 @@ class ReservesTableSeeder extends Seeder
     {
         $today = Carbon::today();
         $reserve = [
+            'id' => 1,
             'name' => '会社の忘年会',
             'user_id' => '2',
             'shop_id' => '1',
@@ -29,6 +30,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 2,
             'name' => '昼会',
             'user_id' => '2',
             'shop_id' => '1',
@@ -39,6 +41,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 3,
             'name' => 'A社の懇親会',
             'user_id' => '2',
             'shop_id' => '1',
@@ -49,6 +52,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 4,
             'name' => 'B社の懇親会',
             'user_id' => '2',
             'shop_id' => '2',
@@ -59,6 +63,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 5,
             'name' => 'C社の懇親会',
             'user_id' => '2',
             'shop_id' => '2',
@@ -69,6 +74,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 6,
             'name' => '飲み会X',
             'user_id' => '2',
             'shop_id' => '3',
@@ -79,6 +85,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 7,
             'name' => '送別会',
             'user_id' => '2',
             'shop_id' => '4',
@@ -89,6 +96,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 8,
             'name' => '懇親会Z',
             'user_id' => '2',
             'shop_id' => '10',
@@ -99,6 +107,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 9,
             'name' => '親睦会Y',
             'user_id' => '2',
             'shop_id' => '10',
@@ -109,6 +118,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 10,
             'name' => '転職祝い',
             'user_id' => '2',
             'shop_id' => '18',
@@ -119,6 +129,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 11,
             'name' => '就職祝い',
             'user_id' => '2',
             'shop_id' => '20',
@@ -129,6 +140,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 12,
             'name' => '前借り',
             'user_id' => '2',
             'shop_id' => '19',
@@ -139,6 +151,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 13,
             'name' => '慰安会',
             'user_id' => '2',
             'shop_id' => '7',
@@ -149,6 +162,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 14,
             'name' => '後借り',
             'user_id' => '2',
             'shop_id' => '6',
@@ -159,6 +173,7 @@ class ReservesTableSeeder extends Seeder
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();
         $reserve = [
+            'id' => 15,
             'name' => 'こぶんおためし１',
             'user_id' => '2',
             'shop_id' => '1',
@@ -168,6 +183,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 16,
             'name' => 'こぶんおためし２',
             'user_id' => '2',
             'shop_id' => '1',
@@ -177,6 +193,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 17,
             'name' => 'こぶんおためし３',
             'user_id' => '2',
             'shop_id' => '1',
@@ -186,6 +203,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 18,
             'name' => 'こぶんおためし４',
             'user_id' => '2',
             'shop_id' => '1',
@@ -195,6 +213,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 19,
             'name' => 'こぶんおためし５',
             'user_id' => '2',
             'shop_id' => '1',
@@ -204,6 +223,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 20,
             'name' => 'こぶんおためし6',
             'user_id' => '2',
             'shop_id' => '9',
@@ -213,6 +233,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 21,
             'name' => 'こぶんおためし７',
             'user_id' => '2',
             'shop_id' => '9',
@@ -222,6 +243,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 22,
             'name' => 'こぶんおためし８',
             'user_id' => '2',
             'shop_id' => '17',
@@ -231,6 +253,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 23,
             'name' => 'こぶんおためし９',
             'user_id' => '2',
             'shop_id' => '17',
@@ -240,6 +263,7 @@ class ReservesTableSeeder extends Seeder
         ];
         DB::table('reserves')->insert($reserve);
         $reserve = [
+            'id' => 24,
             'name' => 'こぶんおためし１０',
             'user_id' => '2',
             'shop_id' => '9',

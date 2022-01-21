@@ -19,6 +19,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
+            'id' => 1,
             'name' => 'しよくん',
             'email' => 'shiyokun@inotani.com',
             'password' => Hash::make('password'),
@@ -26,6 +27,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 2,
             'name' => 'こぶん',
             'email' => 'kobun@inotani.com',
             'password' => Hash::make('password'),
@@ -33,6 +35,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 3,
             'name' => 'なぎち',
             'email' => 'nagichi@inotani.com',
             'password' => Hash::make('password'),
@@ -40,6 +43,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 4,
             'name' => 'ちさいこ',
             'email' => 'chisaiko@inotani.com',
             'password' => Hash::make('password'),
@@ -47,6 +51,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 5,
             'name' => 'くまお',
             'email' => 'kumao@inotani.com',
             'password' => Hash::make('password'),
@@ -54,6 +59,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 6,
             'name' => '一般ユーザーA',
             'email' => 'userA@users.com',
             'password' => Hash::make('password'),
@@ -61,6 +67,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 7,
             'name' => '一般ユーザーB',
             'email' => 'userB@users.com',
             'password' => Hash::make('password'),
@@ -68,6 +75,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 8,
             'name' => '一般ユーザーC',
             'email' => 'userC@users.com',
             'password' => Hash::make('password'),
@@ -75,6 +83,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 9,
             'name' => '一般ユーザーD',
             'email' => 'userD@users.com',
             'password' => Hash::make('password'),
@@ -82,6 +91,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 10,
             'name' => '一般ユーザーE',
             'email' => 'userE@users.com',
             'password' => Hash::make('password'),
@@ -89,6 +99,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 11,
             'name' => '一般ユーザーF',
             'email' => 'userF@users.com',
             'password' => Hash::make('password'),
@@ -96,6 +107,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 12,
             'name' => '一般ユーザーG',
             'email' => 'userG@users.com',
             'password' => Hash::make('password'),
@@ -103,6 +115,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
+            'id' => 13,
             'name' => '一般ユーザーH',
             'email' => 'userH@users.com',
             'password' => Hash::make('password'),
