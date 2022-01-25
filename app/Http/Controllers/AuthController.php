@@ -50,20 +50,20 @@ class AuthController extends Controller
     {
         // 使用可能なトークンか
         if (!User::where('email_verify_token', $email_token)->exists()) {
-            redirect('http://localhost:3000/thanks/invalid');
+            redirect('https://rese-syand.netlify.app/thanks/invalid');
         } else {
             $user = User::where('email_verify_token', $email_token)->first();
             // 本登録済みユーザーか
             if ($user->email_verified_at) {
                 // logger("status". $user->email_verified );
-                return redirect('http://localhost:3000/thanks/exist');
+                return redirect('https://rese-syand.netlify.app/thanks/exist');
             }
             // ユーザーステータス更新
             $user->email_verified_at = Carbon::now();
             if ($user->save()) {
-                return redirect('http://localhost:3000/thanks/success');
+                return redirect('https://rese-syand.netlify.app/thanks/success');
             } else {
-                return redirect('http://localhost:3000/thanks/fail');
+                return redirect('https://rese-syand.netlify.app/thanks/fail');
             }
         }
     }
