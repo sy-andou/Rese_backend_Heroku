@@ -26,7 +26,8 @@ class StorageController extends Controller
      */
     public function store(Request $request)
     {
-        Storage::putFileAs('public', $request->file, $request->file->getClientOriginalName());
+        // Storage::putFileAs('public', $request->file, $request->file->getClientOriginalName());
+        Storage::disk('s3')->putFileAs('', $request->file, $request->file->getClientOriginalName());
     }
 
     /**
