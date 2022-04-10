@@ -25,7 +25,7 @@ class ReservesTableSeeder extends Seeder
             'shop_id' => '1',
             'date' => $today->format('Y-m-d'),
             'time' => '19:00:00',
-            'number' => '15',
+            'number' => '3',
         ];
         DB::table('reserves')->insert($reserve);
         $today = Carbon::today();

@@ -61,7 +61,7 @@ class ShopController extends Controller
      */
     public function show(Shop $shop)
     {
-        $item = Shop::with('area', 'genre', 'favorite', 'reserve.review')->where('id', $shop->id)->get();
+        $item = $shop::with('area', 'genre', 'favorite', 'reserve.review')->where('id', $shop->id)->first();
         if ($item) {
             return response()->json([
                 'data' => $item
