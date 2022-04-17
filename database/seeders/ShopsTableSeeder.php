@@ -142,8 +142,8 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($shop);
         $shop = [
             'id' => 10,
-            'name' => 'はまだ寿司',
-            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/はまだ寿司.jpeg',
+            'name' => 'はまだすし',
+            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/はまだすし.jpeg',
             'summary' => '鮨好きの方の為の鮨屋として、迫力ある大きさの握りを1貫ずつ提供致します。',
             'opening_time' => '12:00',
             'closing_time' => '21:00',
@@ -240,8 +240,8 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($shop);
         $shop = [
             'id' => 17,
-            'name' => 'てんぐ寿司',
-            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/てんぐ寿司.jpeg',
+            'name' => 'てんぐすし',
+            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/てんぐすし.jpeg',
             'summary' => '職人が一つ一つ心を込めて丁寧に仕上げた、江戸前鮨ならではの味をお楽しみ頂けます。鮨に合った希少なお酒も数多くご用意しております。他にはない海鮮太巻き、当店自慢の蒸し鮑、是非ご賞味下さい。',
             'opening_time' => '11:00',
             'closing_time' => '20:00',
