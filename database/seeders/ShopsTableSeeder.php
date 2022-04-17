@@ -36,7 +36,7 @@ class ShopsTableSeeder extends Seeder
             'opening_time' => '17:00',
             'closing_time' => '21:00',
             'min_number' => '2',
-            'max_number' => '10',
+            'max_number' => '15',
             'user_id' => '3',
             'genre_id' => '2',
             'area_id' => '27',
