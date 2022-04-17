@@ -58,8 +58,8 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($shop);
         $shop = [
             'id' => 4,
-            'name' => 'サイゼリアル',
-            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/サイゼリアル.jpeg',
+            'name' => 'サイゼリヤル',
+            'img_pass' => 'https://reseimgbucket.s3.ap-northeast-3.amazonaws.com/saiseriyal.jpeg',
             'summary' => '都心にひっそりとたたずむ、古民家を改築した落ち着いた空間です。イタリアで修業を重ねたシェフによるモダンなイタリア料理とソムリエセレクトによる厳選ワインとのペアリングが好評です。ゆっくりと上質な時間をお楽しみください。',
             'opening_time' => '11:00',
             'closing_time' => '21:00',
