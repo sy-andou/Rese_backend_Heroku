@@ -20,24 +20,24 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'id' => 1,
-            'name' => 'しよくん',
-            'email' => 'shiyokun@inotani.com',
+            'name' => '管理者サンプル',
+            'email' => 'sample@administrators.com',
             'password' => Hash::make('password'),
             'permission_id' => 3,
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
             'id' => 2,
-            'name' => 'こぶん',
-            'email' => 'kobun@inotani.com',
+            'name' => '店舗代表者サンプル',
+            'email' => 'sample@representatives.com',
             'password' => Hash::make('password'),
             'permission_id' => 2,
             'email_verified_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
             'id' => 3,
-            'name' => 'なぎち',
-            'email' => 'nagichi@inotani.com',
+            'name' => 'kuuchi',
+            'email' => 'kuchi@inotani.com',
             'password' => Hash::make('password'),
             'permission_id' => 2,
             'email_verified_at' => Carbon::now(),
@@ -120,30 +120,6 @@ class UsersTableSeeder extends Seeder
             'email' => 'userH@users.com',
             'password' => Hash::make('password'),
             'permission_id' => 1,
-            'email_verified_at' => Carbon::now(),
-        ]);
-        DB::table('users')->insert([
-            'id' => 14,
-            'name' => '一般ユーザサンプル',
-            'email' => 'sample@users.com',
-            'password' => Hash::make('password'),
-            'permission_id' => 1,
-            'email_verified_at' => Carbon::now(),
-        ]);
-        DB::table('users')->insert([
-            'id' => 15,
-            'name' => '店舗代表者サンプル',
-            'email' => 'sample@representatives.com',
-            'password' => Hash::make('password'),
-            'permission_id' => 2,
-            'email_verified_at' => Carbon::now(),
-        ]);
-        DB::table('users')->insert([
-            'id' => 16,
-            'name' => '管理者サンプル',
-            'email' => 'sample@administrators.com',
-            'password' => Hash::make('password'),
-            'permission_id' => 3,
             'email_verified_at' => Carbon::now(),
         ]);
         // DB::table('users')->insert([
