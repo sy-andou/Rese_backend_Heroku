@@ -122,6 +122,30 @@ class UsersTableSeeder extends Seeder
             'permission_id' => 1,
             'email_verified_at' => Carbon::now(),
         ]);
+        DB::table('users')->insert([
+            'id' => 14,
+            'name' => '一般ユーザサンプル',
+            'email' => 'sample@users.com',
+            'password' => Hash::make('password'),
+            'permission_id' => 1,
+            'email_verified_at' => Carbon::now(),
+        ]);
+        DB::table('users')->insert([
+            'id' => 15,
+            'name' => '店舗代表者サンプル',
+            'email' => 'sample@representatives.com',
+            'password' => Hash::make('password'),
+            'permission_id' => 2,
+            'email_verified_at' => Carbon::now(),
+        ]);
+        DB::table('users')->insert([
+            'id' => 16,
+            'name' => '管理者サンプル',
+            'email' => 'sample@administrators.com',
+            'password' => Hash::make('password'),
+            'permission_id' => 3,
+            'email_verified_at' => Carbon::now(),
+        ]);
         // DB::table('users')->insert([
         //     'name' => 'ほんものしよくん',
         //     'email' => 'kakeru.the.solo@gmail.com',
