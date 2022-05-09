@@ -29,8 +29,7 @@ class MailSendcontroller extends Controller
     public function store(Request $request)
     {
         Mail::send('text', ['text' => $request->text], function ($message) use ($request) {
-            $message->bcc($request->address)
-                ->subject($request->subject);
+            $message->bcc($request->address)->subject($request->subject);
         });
         return response()->json([
             'data' => "メールを送信しました"
