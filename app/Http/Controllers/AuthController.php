@@ -39,10 +39,10 @@ class AuthController extends Controller
                 "permission_id" => 1,
                 "email_verify_token" => base64_encode($request->email),
             ]);
-            Mail::send('pre_register', ['name' => $request->name, 'token' => base64_encode($request->email)], function ($message) use ($request) {
-                $message->bcc($request->email)
-                    ->subject('【Rese】仮登録が完了しました。');
-            });
+            // Mail::send('pre_register', ['name' => $request->name, 'token' => base64_encode($request->email)], function ($message) use ($request) {
+            //     $message->bcc($request->email)
+            //         ->subject('【Rese】仮登録が完了しました。');
+            // });
         }
     }
 
